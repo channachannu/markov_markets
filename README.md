@@ -179,7 +179,7 @@ The **ATR (Average True Range)** is computed using an Exponential Weighted Mean 
 TR  = max(High−Low, |High−PrevClose|, |Low−PrevClose|)
 ATR = TR.ewm(span=14).mean()
 ```
-
+![Alt text](Regimes_v1.png)
 ---
 
 ## Limitations
